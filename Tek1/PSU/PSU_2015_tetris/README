@@ -1,0 +1,70 @@
+-Liste des fonctions systèmes utiles :
+
+malloc
+free
+stdarg (nombre varaibles d'options, je pense à la config du jeu au début)
+exit
+stat
+read
+readir
+open
+opendir
+write
+time
+ioctl
+lib ncurses
+signal/sigaction
+fork
+access
+wait
+pause
+
+
+-----------------------------------
+Parties réalisées :
+Gestion des tetriminos
+Gestion des flags, map-size, keys, level, debug, help, without_next etc..
+
+-----------------------------------
+
+En cours :
+Partie graphique en cours de réalisation !
+
+-----------------------------------
+
+Gérer les options (noter options gérées) : 
+- AFFICHER HELP
+- AFFICHER DEBUG
+- CHANGER TOUTES LES KEYS
+- CHANGER MAP SIZE
+- CHANGER LEVEL
+- ACTIVER OU NON L'AFFICHAGE DES NEXT
+- ET TOUT LE RESTE DES FLAGS SONT GERER
+
+-----------------------------------
+
+[ OK ] Référencer tétriminos dans une liste chainée
+[ XX ] Tableau de jeu créer (tablau de stucture)
+[ OK ] Gérer tout les flags
+[ OK ] Mode debug (reste à gérer l'appuis d'une touche pour lancer tetris)
+[ OK ] Help
+[ OK ] Taille variable map
+[ OK ] Générer forme en haut du tableau
+[ OK ] Pièce next
+[ OK ] Score
+[ XX ] High Score
+[ OK ] Timer
+[    ] Level
+[ OK ] Gérer les touches
+[    ] Fichiers de conf
+[    ] Sauvegarde
+[    ] Multijoueur
+[    ] Musique
+[    ] NORME
+----------NOTES----------
+
+/ ! \ Finir interface graphique
+/ !! \ Changer les msg erreur par de vrai message !
+/ !!! \ Ce decider pour l'interface graphique :D
+
+/ !!!!!!!!!!!!!!! \ LA NORME :D Mettre à la norm le fichier, "/sources/display/display.c"
