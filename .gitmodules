@@ -1,0 +1,3 @@
+[submodule "LibLapin"]
+	path = LibLapin
+	url = git@github.com:MrDarkSkil/LibLapin.git
